@@ -102,3 +102,56 @@ img{
     max-width: 1280px;
     margin: 0 auto;
 }
+
+.nav__container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav__logo{
+    margin: 8px 0;
+    padding-bottom: 4px;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav__logo--img{
+    height: 40px;
+    width: 40px;
+}
+
+.nav__logo--title{
+    font-weight: 900;
+    font-size: 24px;
+    margin-left: 12px;
+    padding-bottom: 2px;
+    letter-spacing: 0.6px;
+}
+
+.nav__link{
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: blue;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.nav__link:hover{
+    text-decoration: underline;
+}
+
+.nav__link--primary{
+    border: 2px solid rgb(73, 73, 130);
+    border-radius: 4px;
+}
+
+.nav__link--primary:hover{
+    text-decoration: none;
+}
