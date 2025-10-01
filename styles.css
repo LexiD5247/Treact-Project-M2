@@ -23,9 +23,6 @@ h1{
     margin-bottom: 24px;
     text-align: center;
 }
-#features{
-    position: relative;
-}
 
 section{
     padding: 0 32px;
@@ -343,8 +340,10 @@ header{
     max-width: 576px;
 }
 
-#features{
-    position: relative;
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
 }
 
 .feature{
@@ -920,6 +919,23 @@ footer{
     footer {
         padding: 80px 32px;
     }
+    .nav__links {
+        display: none;
+    }
+
+    .features{
+        max-width: 768px;
+    }
+
+    .plans{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .start__buttons{
+        width: auto;
+        margin-top: 24px;
+    }
 }
 
 @media(max-width: 640px) {
@@ -933,19 +949,43 @@ footer{
     main {
         margin-bottom: 80px;
     }
+
+    .section__title{
+        font-size: 30px;
+    }
+
+    .start__buttons{
+        flex-direction: column;
+    }
 }
 
 @media(max-width: 768px) {
-    #quality .row,
-    #values .row {
+    #quality.row,
+    #values.row {
         flex-direction: column-reverse;
     }
-    #steps .row,
-    #testimonials .row {
+    #steps.row,
+    #testimonials.row {
         flex-direction: column;
         align-items: center;
     }
-    #pricing .row {
+    #pricing.row {
         margin-top: 40px;
+    }
+
+    .features{
+        justify-content: center;
+    }
+
+    .quality__description,
+    .quality__img--wrapper, 
+    .steps__description, 
+    .steps__img--wrapper, 
+    .values__description, 
+    .values__img,
+    .testimonials__description, 
+    .testimonials__img {
+        width: 100%;
+        max-width: 448px;
     }
 }
