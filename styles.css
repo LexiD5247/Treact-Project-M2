@@ -494,3 +494,57 @@ header{
     font-weight: 500;
     line-height: 2;
 }
+/*Values*/
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.values__description,
+.values__img{
+    width: 50%;
+}
+
+.values__description{
+    padding: 32px 64px 32px 0;
+}
+
+.section__title{
+    margin: 16px;
+    margin-bottom: 32px;
+}
+
+.values__list{
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    max-width: none;
+    flex-direction: row;
+}
+
+.value{
+    align-items: first start;
+    display: flex;
+    flex-direction: column;
+}
+
+.value__title{
+    display: flex;
+    align-items: center;
+}
+
+.value__img--wrapper{
+    background-color: #9ae6b4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+}
+
+.value:nth-child(2) .value__img--wrapper{
+    background-color: #feb2b2;
+}
