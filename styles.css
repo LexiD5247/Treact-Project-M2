@@ -806,3 +806,146 @@ Specificity: (0,3,0)
     background-color: white;
     color: #6415ff;
 }
+
+/*Footer*/
+
+footer{
+    padding: 96px 32px;
+    background-color: rgb(100, 21, 255);
+    margin-bottom: -32px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer__columns{
+    margin-top: -48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer__column{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 2;
+}
+
+.footer__column--title{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer__column--link{
+    color: white;
+    font-size: 14px;
+    margin-top: 12px;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer__divider{
+    width: 100%;
+    height: 2px;
+    margin: 64px 0;
+    background: rgb(116, 44, 255);
+}
+
+.footer__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo{
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo--img{
+    height: 32px;
+    width: 32px;
+}
+
+.footer__logo--text{
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+    margin-left: 8px;
+    letter-spacing: 0.05em;
+}
+
+.footer__copyright{
+    color: rgb(178, 178, 178);
+    font-weight: 500;
+}
+
+.footer__socials{
+    display: flex;
+    align-items: center;
+    margin-left: -16px;
+}
+
+.footer__social--link{
+    margin-left: 16px;
+    padding: 8px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    z-index: index 2;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+ 
+@media(max-width: 1280px) {
+    header .row {
+        align-items: flex-end;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .btn__menu {
+        display: block;
+    }
+    header .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer {
+        padding: 80px 32px;
+    }
+}
+
+@media(max-width: 640px) {
+    .container {
+        padding: 80px 0;
+    }
+    .nav__logo {
+        margin: 8px 0;
+        padding-bottom: 4px;
+    }
+    main {
+        margin-bottom: 80px;
+    }
+}
+
+@media(max-width: 768px) {
+    #quality .row,
+    #values .row {
+        flex-direction: column-reverse;
+    }
+    #steps .row,
+    #testimonials .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    #pricing .row {
+        margin-top: 40px;
+    }
+}
