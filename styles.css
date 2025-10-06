@@ -59,8 +59,6 @@ h2 {
 
 .row__narrow {
   width: 100%;
-  max-width: 1024px;
-  margin: 0, auto;
 }
 
 .section__title {
@@ -102,7 +100,6 @@ img {
 .nav__container {
   width: 100%;
   max-width: 1200px;
-  padding: 0 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -277,7 +274,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  
+
 }
 
 .header__email--input {
