@@ -270,14 +270,14 @@ header {
 }
 
 .header__email {
-  flex-direction: column;
-  height: auto;
   width: 100%;
   max-width: 448px;
+  height: 68px;
   position: relative;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  
 }
 
 .header__email--input {
@@ -287,9 +287,12 @@ header {
   padding: 20px 192px 20px 32px;
   color: rgb(36, 62, 99);
   font-size: 16px;
-  font-weight: 500px;
-  position: relative;
+  font-weight: 500;
+  position: absolute;
+  top: 0;
+  bottom: 0;
   z-index: 1;
+  transition: border-color 300ms ease;
 }
 
 .header__email--btn {
