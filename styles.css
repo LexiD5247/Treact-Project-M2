@@ -97,8 +97,10 @@ img {
   width: 100%;
 }
 
+/*Navigation*/
+
 .nav__container {
-  padding-top: 20px;
+  padding-top: 32px;
   width: 100%;
   max-width: 1200px;
   display: flex;
@@ -127,13 +129,23 @@ img {
   letter-spacing: 0.6px;
 }
 
+.nav__links{
+  display: flex;
+  align-items: center;
+  padding-bottom: 2px;
+}
+
 .nav__link {
-  margin-left: 16px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   color: #243e63;
-  font-weight: bold;
-  padding: 8px;
+  font-weight: 600;
+  padding: 4px;
+  letter-spacing: 0.35px;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  transition: all 300ms ease;
+  margin: 0 24px;
 }
 
 .nav__link:hover {
