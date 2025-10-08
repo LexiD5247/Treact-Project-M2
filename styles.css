@@ -15,7 +15,7 @@ button {
 }
 
 .purple {
-  color: #7342d6;
+  color: #6415ff;
 }
 
 h1 {
@@ -98,6 +98,7 @@ img {
 }
 
 .nav__container {
+  padding-top: 20px;
   width: 100%;
   max-width: 1200px;
   display: flex;
@@ -292,7 +293,7 @@ header {
   height: calc(100% - 16px);
   border-radius: 500px;
   border: none;
-  background-color: #7342d6;
+  background-color: #6415ff;
   color: white;
   font-weight: 700;
   font-size: 16px;
