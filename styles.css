@@ -243,10 +243,6 @@ img {
 
 /*Header*/
 
-header {
-  height: calc(100vh - 80px);
-}
-
 .header__row{
   display: flex;
   align-items: center;
@@ -384,14 +380,8 @@ header {
   align-items: center;
 }
 
-.quality__description,
-.quality__img--wrapper {
-  width: 50%;
-}
-
 .quality__description{
   max-width: 576px;
-  margin-right: 64px;
 }
 
 .section__title {
@@ -1073,6 +1063,21 @@ footer {
       flex-direction: column;
       align-items: center;
     }
+
+    .header__img--wrapper{
+      width: 100%;
+      max-width: 512px;
+      margin-top: 32px;
+    }
+
+    .header__customers{
+      padding-right: 0;
+      text-align: center;
+    }
+
+    .plan{
+      margin-right: 0;
+    }
 }
 
 @media(max-width: 768px) {
@@ -1085,6 +1090,7 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
     #pricing .row {
         margin-top: 40px;
     }
@@ -1118,6 +1124,47 @@ footer {
     .feature{
       width: auto;
       max-width: 384px;
+    }
+
+   .quality__img--wrapper, 
+   .steps__description, 
+   .steps__img--wrapper, 
+   .values__description, 
+   .values__img, 
+   .testimonials__description, 
+   .testimonials__img {
+        width: 100%;
+        max-width: 448px;
+    }
+
+    .step{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .step__description{
+      margin-top: 12px;
+      margin-left: 0;
+      text-align: center;
+    }
+
+    .quality__description, 
+    .steps__description, 
+    .values__description, 
+    .testimonials__description {
+      padding: 0;
+      margin-top: 64px;
+      text-align: center;
+    }
+
+    .values__list{
+      margin-left: auto;
+      margin-right: auto;
+      flex-wrap: wrap;
+    }
+
+    .value{
+      align-items: center;
     }
 }
 
@@ -1158,12 +1205,13 @@ footer {
     #features .section__title,
     #pricing .section__title{
       font-size: 36px;
+      text-align: center;
     }
 
     .feature__row{
       flex-direction: column;
       align-items: center;
-      text-align: center;
+      padding: 16px 16px;
     }
 
     .header__email{
@@ -1177,11 +1225,24 @@ footer {
         line-height: 1.5;
     }
 
-        .header__email--btn {
-        width: 100%;
-        padding: 16px 0;
-        margin: 16px 0;
-        margin-bottom: 0px;
-        line-height: 1.5;
+    .header__email--btn {
+      width: 100%;
+      padding: 16px 0;
+      margin: 16px 0;
+      margin-bottom: 0px;
+      line-height: 1.5;
     }
+
+    .header__customers__title{
+      font-size: 14px;
+      letter-spacing: 0.05em;
+    }
+
+    .feature,
+    .quality__description, 
+    .section__para,
+    .section__tag{
+      text-align: center;
+    }
+
   }
