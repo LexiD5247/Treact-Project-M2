@@ -1222,6 +1222,7 @@ footer {
       flex-direction: column;
       height: auto;
     }
+    
     .header__email--input {
         position: static;
         padding: 16px 0;
@@ -1265,3 +1266,4 @@ footer {
       text-align: center;
       line-height: 1.5;
   }
+}
