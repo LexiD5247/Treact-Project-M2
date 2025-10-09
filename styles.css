@@ -1166,6 +1166,11 @@ footer {
     .value{
       align-items: center;
     }
+
+    .footer__copyright,
+    .footer__socials{
+      margin-top: 32px;
+    }
 }
 
 @media(max-width: 640px) {
@@ -1245,4 +1250,19 @@ footer {
       text-align: center;
     }
 
+    .footer_columns{
+      justify-content: center;
+    }
+
+    .footer__column{
+      width: auto;
+      padding: 0 16px;
+      align-items: center;
+      text-align: center;
+    }
+
+    .footer__copyright{
+      font-size: 14px;
+      text-align: center;
+      line-height: 1.5;
   }
