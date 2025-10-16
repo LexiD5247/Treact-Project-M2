@@ -349,6 +349,7 @@ img {
   display: flex;
   align-items: flex-start;
   padding: 32px 24px;
+  margin: auto;
 }
 
 .feature__img--wrapper {
@@ -546,6 +547,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: auto;
 }
 
 .section__para {
@@ -1222,7 +1224,7 @@ footer {
       flex-direction: column;
       height: auto;
     }
-    
+
     .header__email--input {
         position: static;
         padding: 16px 0;
