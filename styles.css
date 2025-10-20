@@ -58,6 +58,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
+  align-items: center;
 }
 
 .row__narrow {
@@ -404,6 +405,10 @@ img {
   transition: all 300ms ease;
   cursor: pointer;
   margin-top: 32px;
+}
+
+.quality__img--wrapper {
+  width: 50%;
 }
 
 /*Steps*/
