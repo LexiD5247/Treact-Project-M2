@@ -203,7 +203,7 @@ img {
   overflow: hidden;
 }
 
-.menu--open,
+.menu--open
 .menu__backdrop {
   visibility: visible;
   opacity: 1;
